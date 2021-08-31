@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f3f3f3;
+}
+
+main {
+  padding: 16px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  margin: auto;
+}
+
+.header {
+/*   background-image: url("https://assetsnffrgf-a.akamaihd.net/assets/m/2020401/univ/wpub/2020401_univ_cnt_1_lg.jpg"); */
+/*   background-image: url("https://wol.jw.org/pt/wol/mp/r5/lp-t/w20/2020/337"); */
+  background-image: url("https://assetsnffrgf-a.akamaihd.net/assets/m/1102000124/univ/art/1102000124_univ_cnt_5_xl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.tittle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  width: 100%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* ******* */
+.perfil_one {
+  color: #4285f4;
+}
+
+.perfil_two {
+  color: #ffc107;
+}
+
+.perfil_tre {
+  color: #f44336;
+}
+/* ******* */
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.place {
+  width: 100%;
+  max-width: 660px;
+}
+
+.ght {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  }
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-size: 1.4rem;
+  
+  background: #e6e6e6;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+textarea, button {
+  border-radius: 3px;
+}
+
+.tarea {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 8px;
+}
+
+.act button {
+  padding: 8px;
+  border: none;
+}
+
+.ok {
+  opacity: 0.8;
+  background: blue;
+  color: #fff;
+}
+
+.ok:hover {
+  opacity: 1;
+}
+
+.no {
+  opacity: 0.8;
+  background: red;
+  color: #fff;
+}
+
+.no:hover {
+  opacity: 1;
+}
